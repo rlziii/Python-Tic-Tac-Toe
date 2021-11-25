@@ -102,7 +102,7 @@ def check_for_winner(board_array, print_results=False):
         isWinner = True
         winningPlayer = board_array[0]
     # Minor diagonal (/).
-    elif check_spaces_for_winner(board_array, 2, 4, 8):
+    elif check_spaces_for_winner(board_array, 2, 4, 6):
         isWinner = True
         winningPlayer = board_array[2]
     
